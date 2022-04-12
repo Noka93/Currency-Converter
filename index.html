@@ -7,26 +7,28 @@
     <title>Currency Converter</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=PT+Sans&family=PT+Sans+Narrow&family=PT+Serif&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500&family=Outfit&family=PT+Sans&family=PT+Sans+Narrow&family=PT+Serif&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="container">
         <div class="col">
             <div class="c_c">Currency Converter</div>
+            <hr>
                 <div class="main">
                     <div class="amount">Enter Amount</div>
                     <input type="number" value="10" id="Amount">
-                    <div class="tranfer">
-                        <select class="select-text">
+                    <div class="transfer">
+                        <select class="select1">
                             <option selected disabled>From</option>
                         </select>
                         <div class="icon">
-                            <span><i class="fa-solid fa-money-bill-transfer"></i></span>
-                            <select class="select-text">
+                            <span><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+                            <select class="select1">
                                 <option selected disabled>To</option>
                             </select>
                         </div>
+                    </div>
                         <div class="main2">
                             <div class="convert"></div>
                             <div class="message"></div>
@@ -34,8 +36,6 @@
                         <div class="button">
                             <button class="btn">Convert</button>
                         </div>
-
-                    </div>
                 </div>
         </div>
     </div>

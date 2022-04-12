@@ -2,45 +2,113 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 ::selection{
-    background-color: aqua;
-    color: #fff;
+    width: 100vh;
 }
 
 body{
     min-height: 100vh;
     display: flex;
-    background-color: aqua;
+    background-color:#2D4263;
     align-items: center;
     justify-content: center;
 }
 
 .container{
     width: 100%;
-    max-width: 400px;
+    max-width: 330px;
     position: relative;
-    padding: 40px;
+    padding: 30px;
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0px 4px 4px rgb(0,0,0, 0.2);
+    box-shadow: 0px 6px 6px rgba(184, 181, 181, 0.2);
     font-size: 15px;
     font-weight: 800;
 }
-.container::before{
+.container hr{
     width: 100%;
-    height: 2px;
-    content:'';
+    height: 3px;
     position: absolute;
-    top: 70px;
+    top: 58px;
     left: 0;
     background-color:rgb(120, 116, 116);  
 }
 
 .container .col .c_c{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     font-weight: 800;
+    padding-left: 2px;
 }
+.container .col .main{
+    margin-top: 10px;
+}
+
+.container .col .main .amount{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding-left: 2px;
+}
+
+.container .col  input{
+    width: 100%;
+    height: 42%;
+    border: 2px solid rgb(120, 116, 116);
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    margin-bottom: 6px;
+    padding: 5px;
+    
+}
+
+.container .col input:focus{
+    border-color: #2D4263;
+}
+
+.container .transfer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.container .transfer .icon span{
+    font-size: 20px;
+    color: rgb(120, 116, 116);
+}
+
+.container .transfer .icon i{
+    margin-right: 40px;
+}
+
+.container .transfer .select1{
+    width: 85px;
+    height: 29px;
+    padding-left:5px;
+    border: 2px solid rgb(120, 116, 116);
+    border-radius: 5px;
+    outline: none;
+}
+
+.container .transfer .select1:focus{
+    border-color: #2D4263;
+}
+
+.container .button{
+    margin-top:25px;
+}
+
+.container .button .btn{
+    width: 100%;
+    height: 40px;
+    background: #1C6DD0;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
