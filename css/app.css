@@ -110,5 +110,20 @@ body{
     background: #1C6DD0;
     font-size: 15px;
     font-weight: 700px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .main2{
+    margin-top: 15px;
+}
+
+.container .main2 .convert{
+    font-size: 18px;
+}
+.container .main2 .message{
+    font-size: 18px;
 }
 
