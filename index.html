@@ -19,25 +19,53 @@
                     <div class="amount">Enter Amount</div>
                     <input type="number" value="0" id="Amount">
                     <div class="transfer">
-                        <select class="select1">
-                            <option selected disabled>From</option>
+                        <select id="currency1">
+                                <option value="NGN" selected>Nigerian Naira</option>
+                                <option value="USD">US Dollars</option>
+                                <option value="EUR">Euro</option>
+                                <option value="GBP">Bristish Pound</option>
+                                <option value="CNY">Chinese Yuan</option>
+                                <option value="CAD">Canadian Dollar</option>
+                                <option value="INR">Indian Rupee</option>
+                                <option value="GHS">Ghanaian Cedi</option>
+                                <option value="AUD">Austrialian Dollar</option>
+                                <option value="JPY">Japanese Yen</option>
+                                <option value="ZAR">South African Rand</option>
+                                <option value="AED">UAE Dirham</option>
+                                <option value="CHF">Swiss Franc</option>
+                                <option value="SEK">Swedish Krona</option>
                         </select>
                         <div class="icon">
                             <span><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
-                            <select class="select1">
-                                <option selected disabled>To</option>
+                            <select id="currency2">
+                                <option value="NGN">Nigerian Naira</option>
+                                <option value="USD">US Dollars</option>
+                                <option value="EUR"selected>Euro</option>
+                                <option value="GBP">Bristish Pound</option>
+                                <option value="CNY">Chinese Yuan</option>
+                                <option value="CAD">Canadian Dollar</option>
+                                <option value="INR">Indian Rupee</option>
+                                <option value="GHS">Ghanaian Cedi</option>
+                                <option value="AUD">Austrialian Dollar</option>
+                                <option value="JPY">Japanese Yen</option>
+                                <option value="ZAR">South African Rand</option>
+                                <option value="AED">UAE Dirham</option>
+                                <option value="CHF">Swiss Franc</option>
+                                <option value="SEK">Swedish Krona</option>
                             </select>
                         </div>
                     </div>
                         <div class="main2">
-                            <div class="convert"></div>
-                            <div class="message"></div>
+                            <div id="convert"></div>
+                            <div id="message">200</div>
                         </div>
-                        <div class="button">
-                            <button class="btn">Convert</button>
+                        <div id="button">
+                            <button id="btn">Convert</button>
                         </div>
                 </div>
         </div>
     </div>
+    
+    <script src="index.js"></script>
 </body>
 </html>

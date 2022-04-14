@@ -19,7 +19,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 330px;
+    max-width: 370px;
     position: relative;
     padding: 30px;
     background: #fff;
@@ -84,27 +84,28 @@ body{
 }
 
 .container .transfer .icon i{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
-.container .transfer .select1{
-    width: 85px;
+.container #currency1, #currency2{
+    width: 120px;
     height: 29px;
     padding-left:5px;
     border: 2px solid rgb(120, 116, 116);
     border-radius: 5px;
     outline: none;
+    font-size: 13px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.container .transfer .select1:focus{
+.container #currency1, #currency2:focus{
     border-color: #2D4263;
 }
-
 .container .button{
     margin-top:25px;
 }
 
-.container .button .btn{
+.container #button #btn{
     width: 100%;
     height: 40px;
     background: #1C6DD0;
@@ -120,10 +121,10 @@ body{
     margin-top: 15px;
 }
 
-.container .main2 .convert{
+.container .main2 #convert{
     font-size: 18px;
 }
-.container .main2 .message{
+.container .main2 #message{
     font-size: 18px;
 }
 
